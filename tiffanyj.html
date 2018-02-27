@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.bhmpics.com/walls/sunset_lake_dark_background-wide.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: pink;
+    }
+    h1 {
+      font-size: 70px;
+    
+    }
+    img {
+      margin: 12px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 10px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color: red;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+   }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      
+    }
+    img{
+      width:110
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pinimg.com/736x/3a/f0/97/3af097c1807e4ed5702267843721437a--tumblr-girl-art-draw-tumblr.jpg">
+    
+
+    
+    <h1>Tiffany's Blog</h1>
+    <ul>
+      <li><a href="#">Expierences</a></li>
+      <li><a href="#">Life</a></li>
+      <li><a href="#">Fears</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Expierences</h2>
+    <p>Depression has a different quality than the normal range of sadness that you may feel throughout the day. When you are depressed you do not feel like being with anybody. You either sleep way more than usual or you can hardly sleep at all
+
+Source: https://www.familyfriendpoems.com/poems/sad/depression/</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Life</h2>
+    <p>As human beings, when we encounter a challenge, we have freedom to choose how to react. Every decision that we make leads us down a different road. We will never come to exactly the same crossroads. Every decision that we make has significance. The tiniest choice that we make reverberates throughout the entire universe.
+
+Source: https://www.familyfriendpoems.com/poems/life/</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Fears</h2>
+    <p>We fear to love, afraid of rejection and getting hurt.
+We fear height because we're afraid of falling and getting hurt.
+We fear darkness because of what's probably in there that might hurt us.
+We fear certain insects or animals because they might bite and hurt us.
+
+We fear fears because we fear from getting hurt.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
